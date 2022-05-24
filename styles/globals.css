@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: auto; */
+}
+body {
+  background: #f2f2f2;
+  color: #333;
+  font-family: "Nunito";
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+.work__hours{
+ margin-top: 5rem !important;
+ margin-bottom: 4rem !important;
+}
+.miniFotter{
+  margin-top:7rem !important;
+  background-color: #30d464;
+  
+ 
+ }
+/* .content {
+  margin: 0 auto;
+} */
+/* nav {
+  max-width:100%;
+  margin: 0 auto ; */
+  /* padding: 10px ; */
+  
+  /* display: flex;
+  justify-content: space-between;
+  align-items:center;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+  padding:30px 30px;
+} */
+/* nav a {
+  margin-left: 12px;
+}
+nav .logo {
+  margin-right: auto;
+} */
+
+.top-margin{
+ margin-top:8rem;
+}
+.buhari-img{
+  object-fit: cover;
+}
+.content{
+  position: relative;
+}
+footer {
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  color: #777;
+  border-top: 1px solid #eaeaea;
+}
+
+.not-found{
+  text-align: center;
+}
+.not-found a{
+  color: #4979ff;
+  text-decoration: underline;
+}
+
+.pubImg{
+  height: 40vh;
+  object-fit: cover;
+}
+
+.service > .card{
+height: 460px !important;
+}
+
+.carousel-caption{
+  position: absolute;
+  top: 35%;
+  color: white;
+}
+
+.carousel-item{
+  position: relative;
+}
+
+.carousel-item::before{
+  position: absolute;
+  content: '';
+  background-color: black;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
